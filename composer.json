@@ -40,11 +40,11 @@
 
 "autoload": {
 
-"psr-0": { "SKCMS\\Bundle\\UserBundle":   "" }
+"psr-0": { "SKCMS\\UserBundle":   "" }
 
 },
 
-"target-dir": "SKCMS/Bundle/UserBundle",
+"target-dir": "SKCMS/UserBundle",
 
 "minimum-stability":   "dev"
 
