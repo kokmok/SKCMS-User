@@ -32,7 +32,7 @@
 "twig/twig":                        "*",
 
 "doctrine/doctrine-bundle":         "*",
-"friendsofsymfony/user-bundle": "dev-master"
+"friendsofsymfony/user-bundle": "2.0.x-dev@dev"
 
 
 
