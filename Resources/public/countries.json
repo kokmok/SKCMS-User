@@ -1,0 +1,3174 @@
+[
+    {
+        "pk": "AF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "AFGHANISTAN", 
+            "printable_name": "Afghanistan", 
+            "region_choices": "", 
+            "numcode": 4, 
+            "iso3": "AFG", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AX", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ALAND ISLANDS", 
+            "printable_name": "\u00c5land Islands", 
+            "region_choices": "", 
+            "numcode": 248, 
+            "iso3": "ALA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ALBANIA", 
+            "printable_name": "Albania", 
+            "region_choices": "", 
+            "numcode": 8, 
+            "iso3": "ALB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "DZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ALGERIA", 
+            "printable_name": "Algeria", 
+            "region_choices": "", 
+            "numcode": 12, 
+            "iso3": "DZA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "AMERICAN SAMOA", 
+            "printable_name": "American Samoa", 
+            "region_choices": "", 
+            "numcode": 16, 
+            "iso3": "ASM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AD", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ANDORRA", 
+            "printable_name": "Andorra", 
+            "region_choices": "", 
+            "numcode": 20, 
+            "iso3": "AND", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ANGOLA", 
+            "printable_name": "Angola", 
+            "region_choices": "", 
+            "numcode": 24, 
+            "iso3": "AGO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ANGUILLA", 
+            "printable_name": "Anguilla", 
+            "region_choices": "", 
+            "numcode": 660, 
+            "iso3": "AIA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AQ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ANTARCTICA", 
+            "printable_name": "Antarctica", 
+            "region_choices": "", 
+            "numcode": 10, 
+            "iso3": "ATA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ANTIGUA AND BARBUDA", 
+            "printable_name": "Antigua and Barbuda", 
+            "region_choices": "", 
+            "numcode": 28, 
+            "iso3": "ATG", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ARGENTINA", 
+            "printable_name": "Argentina", 
+            "region_choices": "PROVINCE_CHOICES", 
+            "numcode": 32, 
+            "iso3": "ARG", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.ar.ar_provinces"
+        }
+    }, 
+    {
+        "pk": "AM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ARMENIA", 
+            "printable_name": "Armenia", 
+            "region_choices": "", 
+            "numcode": 51, 
+            "iso3": "ARM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ARUBA", 
+            "printable_name": "Aruba", 
+            "region_choices": "", 
+            "numcode": 533, 
+            "iso3": "ABW", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "AUSTRALIA", 
+            "printable_name": "Australia", 
+            "region_choices": "STATE_CHOICES", 
+            "numcode": 36, 
+            "iso3": "AUS", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.au.au_states"
+        }
+    }, 
+    {
+        "pk": "AT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "AUSTRIA", 
+            "printable_name": "Austria", 
+            "region_choices": "", 
+            "numcode": 40, 
+            "iso3": "AUT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "AZERBAIJAN", 
+            "printable_name": "Azerbaijan", 
+            "region_choices": "", 
+            "numcode": 31, 
+            "iso3": "AZE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BAHAMAS", 
+            "printable_name": "Bahamas", 
+            "region_choices": "", 
+            "numcode": 44, 
+            "iso3": "BHS", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BAHRAIN", 
+            "printable_name": "Bahrain", 
+            "region_choices": "", 
+            "numcode": 48, 
+            "iso3": "BHR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BD", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BANGLADESH", 
+            "printable_name": "Bangladesh", 
+            "region_choices": "", 
+            "numcode": 50, 
+            "iso3": "BGD", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BB", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BARBADOS", 
+            "printable_name": "Barbados", 
+            "region_choices": "", 
+            "numcode": 52, 
+            "iso3": "BRB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BELARUS", 
+            "printable_name": "Belarus", 
+            "region_choices": "", 
+            "numcode": 112, 
+            "iso3": "BLR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BELGIUM", 
+            "printable_name": "Belgium", 
+            "region_choices": "", 
+            "numcode": 56, 
+            "iso3": "BEL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BELIZE", 
+            "printable_name": "Belize", 
+            "region_choices": "", 
+            "numcode": 84, 
+            "iso3": "BLZ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BJ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BENIN", 
+            "printable_name": "Benin", 
+            "region_choices": "", 
+            "numcode": 204, 
+            "iso3": "BEN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BERMUDA", 
+            "printable_name": "Bermuda", 
+            "region_choices": "", 
+            "numcode": 60, 
+            "iso3": "BMU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BHUTAN", 
+            "printable_name": "Bhutan", 
+            "region_choices": "", 
+            "numcode": 64, 
+            "iso3": "BTN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BOLIVIA", 
+            "printable_name": "Bolivia", 
+            "region_choices": "", 
+            "numcode": 68, 
+            "iso3": "BOL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BOSNIA AND HERZEGOVINA", 
+            "printable_name": "Bosnia and Herzegovina", 
+            "region_choices": "", 
+            "numcode": 70, 
+            "iso3": "BIH", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BOTSWANA", 
+            "printable_name": "Botswana", 
+            "region_choices": "", 
+            "numcode": 72, 
+            "iso3": "BWA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BV", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BOUVET ISLAND", 
+            "printable_name": "Bouvet Island", 
+            "region_choices": "", 
+            "numcode": 74, 
+            "iso3": "BVT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BRAZIL", 
+            "printable_name": "Brazil", 
+            "region_choices": "STATE_CHOICES", 
+            "numcode": 76, 
+            "iso3": "BRA", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.br.br_states"
+        }
+    }, 
+    {
+        "pk": "IO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BRITISH INDIAN OCEAN TERRITORY", 
+            "printable_name": "British Indian Ocean Territory", 
+            "region_choices": "", 
+            "numcode": 86, 
+            "iso3": "IOT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BRUNEI DARUSSALAM", 
+            "printable_name": "Brunei Darussalam", 
+            "region_choices": "", 
+            "numcode": 96, 
+            "iso3": "BRN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BULGARIA", 
+            "printable_name": "Bulgaria", 
+            "region_choices": "", 
+            "numcode": 100, 
+            "iso3": "BGR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BURKINA FASO", 
+            "printable_name": "Burkina Faso", 
+            "region_choices": "", 
+            "numcode": 854, 
+            "iso3": "BFA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "BI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "BURUNDI", 
+            "printable_name": "Burundi", 
+            "region_choices": "", 
+            "numcode": 108, 
+            "iso3": "BDI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CAMBODIA", 
+            "printable_name": "Cambodia", 
+            "region_choices": "", 
+            "numcode": 116, 
+            "iso3": "KHM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CAMEROON", 
+            "printable_name": "Cameroon", 
+            "region_choices": "", 
+            "numcode": 120, 
+            "iso3": "CMR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CANADA", 
+            "printable_name": "Canada", 
+            "region_choices": "PROVINCE_CHOICES", 
+            "numcode": 124, 
+            "iso3": "CAN", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.ca.ca_provinces"
+        }
+    }, 
+    {
+        "pk": "CV", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CAPE VERDE", 
+            "printable_name": "Cape Verde", 
+            "region_choices": "", 
+            "numcode": 132, 
+            "iso3": "CPV", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CAYMAN ISLANDS", 
+            "printable_name": "Cayman Islands", 
+            "region_choices": "", 
+            "numcode": 136, 
+            "iso3": "CYM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CENTRAL AFRICAN REPUBLIC", 
+            "printable_name": "Central African Republic", 
+            "region_choices": "", 
+            "numcode": 140, 
+            "iso3": "CAF", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TD", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CHAD", 
+            "printable_name": "Chad", 
+            "region_choices": "", 
+            "numcode": 148, 
+            "iso3": "TCD", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CHILE", 
+            "printable_name": "Chile", 
+            "region_choices": "REGION_CHOICES", 
+            "numcode": 152, 
+            "iso3": "CHL", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.cl.cl_regions"
+        }
+    }, 
+    {
+        "pk": "CN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CHINA", 
+            "printable_name": "China", 
+            "region_choices": "", 
+            "numcode": 156, 
+            "iso3": "CHN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CX", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CHRISTMAS ISLAND", 
+            "printable_name": "Christmas Island", 
+            "region_choices": "", 
+            "numcode": 162, 
+            "iso3": "CXR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "COCOS (KEELING) ISLANDS", 
+            "printable_name": "Cocos (Keeling) Islands", 
+            "region_choices": "", 
+            "numcode": 166, 
+            "iso3": "CCK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "COLOMBIA", 
+            "printable_name": "Colombia", 
+            "region_choices": "", 
+            "numcode": 170, 
+            "iso3": "COL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "COMOROS", 
+            "printable_name": "Comoros", 
+            "region_choices": "", 
+            "numcode": 174, 
+            "iso3": "COM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CONGO", 
+            "printable_name": "Congo", 
+            "region_choices": "", 
+            "numcode": 178, 
+            "iso3": "COG", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CD", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CONGO, THE DEMOCRATIC REPUBLIC OF THE", 
+            "printable_name": "Democratic Republic of the Congo", 
+            "region_choices": "", 
+            "numcode": 180, 
+            "iso3": "COD", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "COOK ISLANDS", 
+            "printable_name": "Cook Islands", 
+            "region_choices": "", 
+            "numcode": 184, 
+            "iso3": "COK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "COSTA RICA", 
+            "printable_name": "Costa Rica", 
+            "region_choices": "", 
+            "numcode": 188, 
+            "iso3": "CRI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "COTE D'IVOIRE", 
+            "printable_name": "C\u00f4te d'Ivoire", 
+            "region_choices": "", 
+            "numcode": 384, 
+            "iso3": "CIV", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "HR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CROATIA", 
+            "printable_name": "Croatia", 
+            "region_choices": "", 
+            "numcode": 191, 
+            "iso3": "HRV", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CUBA", 
+            "printable_name": "Cuba", 
+            "region_choices": "", 
+            "numcode": 192, 
+            "iso3": "CUB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CYPRUS", 
+            "printable_name": "Cyprus", 
+            "region_choices": "", 
+            "numcode": 196, 
+            "iso3": "CYP", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "CZECH REPUBLIC", 
+            "printable_name": "Czech Republic", 
+            "region_choices": "", 
+            "numcode": 203, 
+            "iso3": "CZE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "DK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "DENMARK", 
+            "printable_name": "Denmark", 
+            "region_choices": "", 
+            "numcode": 208, 
+            "iso3": "DNK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "DJ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "DJIBOUTI", 
+            "printable_name": "Djibouti", 
+            "region_choices": "", 
+            "numcode": 262, 
+            "iso3": "DJI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "DM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "DOMINICA", 
+            "printable_name": "Dominica", 
+            "region_choices": "", 
+            "numcode": 212, 
+            "iso3": "DMA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "DO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "DOMINICAN REPUBLIC", 
+            "printable_name": "Dominican Republic", 
+            "region_choices": "", 
+            "numcode": 214, 
+            "iso3": "DOM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "EC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ECUADOR", 
+            "printable_name": "Ecuador", 
+            "region_choices": "", 
+            "numcode": 218, 
+            "iso3": "ECU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "EG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "EGYPT", 
+            "printable_name": "Egypt", 
+            "region_choices": "", 
+            "numcode": 818, 
+            "iso3": "EGY", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SV", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "EL SALVADOR", 
+            "printable_name": "El Salvador", 
+            "region_choices": "", 
+            "numcode": 222, 
+            "iso3": "SLV", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GQ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "EQUATORIAL GUINEA", 
+            "printable_name": "Equatorial Guinea", 
+            "region_choices": "", 
+            "numcode": 226, 
+            "iso3": "GNQ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ER", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ERITREA", 
+            "printable_name": "Eritrea", 
+            "region_choices": "", 
+            "numcode": 232, 
+            "iso3": "ERI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "EE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ESTONIA", 
+            "printable_name": "Estonia", 
+            "region_choices": "", 
+            "numcode": 233, 
+            "iso3": "EST", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ET", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ETHIOPIA", 
+            "printable_name": "Ethiopia", 
+            "region_choices": "", 
+            "numcode": 231, 
+            "iso3": "ETH", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "FK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FALKLAND ISLANDS (MALVINAS)", 
+            "printable_name": "Falkland Islands (Malvinas)", 
+            "region_choices": "", 
+            "numcode": 238, 
+            "iso3": "FLK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "FO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FAROE ISLANDS", 
+            "printable_name": "Faeroe Islands", 
+            "region_choices": "", 
+            "numcode": 234, 
+            "iso3": "FRO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "FJ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FIJI", 
+            "printable_name": "Fiji", 
+            "region_choices": "", 
+            "numcode": 242, 
+            "iso3": "FJI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "FI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FINLAND", 
+            "printable_name": "Finland", 
+            "region_choices": "MUNICIPALITY_CHOICES", 
+            "numcode": 246, 
+            "iso3": "FIN", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.fi.fi_municipalities"
+        }
+    }, 
+    {
+        "pk": "FR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FRANCE", 
+            "printable_name": "France", 
+            "region_choices": "DEPARTMENT_ASCII_CHOICES", 
+            "numcode": 250, 
+            "iso3": "FRA", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.fr.fr_department"
+        }
+    }, 
+    {
+        "pk": "GF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FRENCH GUIANA", 
+            "printable_name": "French Guiana", 
+            "region_choices": "", 
+            "numcode": 254, 
+            "iso3": "GUF", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FRENCH POLYNESIA", 
+            "printable_name": "French Polynesia", 
+            "region_choices": "", 
+            "numcode": 258, 
+            "iso3": "PYF", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "FRENCH SOUTHERN TERRITORIES", 
+            "printable_name": "French Southern Territories", 
+            "region_choices": "", 
+            "numcode": 260, 
+            "iso3": "ATF", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GABON", 
+            "printable_name": "Gabon", 
+            "region_choices": "", 
+            "numcode": 266, 
+            "iso3": "GAB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GAMBIA", 
+            "printable_name": "Gambia", 
+            "region_choices": "", 
+            "numcode": 270, 
+            "iso3": "GMB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GEORGIA", 
+            "printable_name": "Georgia", 
+            "region_choices": "", 
+            "numcode": 268, 
+            "iso3": "GEO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "DE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GERMANY", 
+            "printable_name": "Germany", 
+            "region_choices": "STATE_CHOICES", 
+            "numcode": 276, 
+            "iso3": "DEU", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.de.de_states"
+        }
+    }, 
+    {
+        "pk": "GH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GHANA", 
+            "printable_name": "Ghana", 
+            "region_choices": "", 
+            "numcode": 288, 
+            "iso3": "GHA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GIBRALTAR", 
+            "printable_name": "Gibraltar", 
+            "region_choices": "", 
+            "numcode": 292, 
+            "iso3": "GIB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GREECE", 
+            "printable_name": "Greece", 
+            "region_choices": "", 
+            "numcode": 300, 
+            "iso3": "GRC", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GREENLAND", 
+            "printable_name": "Greenland", 
+            "region_choices": "", 
+            "numcode": 304, 
+            "iso3": "GRL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GD", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GRENADA", 
+            "printable_name": "Grenada", 
+            "region_choices": "", 
+            "numcode": 308, 
+            "iso3": "GRD", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GP", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GUADELOUPE", 
+            "printable_name": "Guadeloupe", 
+            "region_choices": "", 
+            "numcode": 312, 
+            "iso3": "GLP", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GUAM", 
+            "printable_name": "Guam", 
+            "region_choices": "", 
+            "numcode": 316, 
+            "iso3": "GUM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GUATEMALA", 
+            "printable_name": "Guatemala", 
+            "region_choices": "", 
+            "numcode": 320, 
+            "iso3": "GTM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GUERNSEY", 
+            "printable_name": "Guernsey", 
+            "region_choices": "", 
+            "numcode": 831, 
+            "iso3": "GGY", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GUINEA", 
+            "printable_name": "Guinea", 
+            "region_choices": "", 
+            "numcode": 324, 
+            "iso3": "GIN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GUINEA-BISSAU", 
+            "printable_name": "Guinea-Bissau", 
+            "region_choices": "", 
+            "numcode": 624, 
+            "iso3": "GNB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "GUYANA", 
+            "printable_name": "Guyana", 
+            "region_choices": "", 
+            "numcode": 328, 
+            "iso3": "GUY", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "HT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "HAITI", 
+            "printable_name": "Haiti", 
+            "region_choices": "", 
+            "numcode": 332, 
+            "iso3": "HTI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "HM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "HEARD ISLAND AND MCDONALD ISLANDS", 
+            "printable_name": "Heard Island and Mcdonald Islands", 
+            "region_choices": "", 
+            "numcode": 334, 
+            "iso3": "HMD", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "VA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "HOLY SEE (VATICAN CITY STATE)", 
+            "printable_name": "Holy See", 
+            "region_choices": "", 
+            "numcode": 336, 
+            "iso3": "VAT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "HN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "HONDURAS", 
+            "printable_name": "Honduras", 
+            "region_choices": "", 
+            "numcode": 340, 
+            "iso3": "HND", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "HK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "HONG KONG", 
+            "printable_name": "Hong Kong Special Administrative Region of China", 
+            "region_choices": "", 
+            "numcode": 344, 
+            "iso3": "HKG", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "HU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "HUNGARY", 
+            "printable_name": "Hungary", 
+            "region_choices": "", 
+            "numcode": 348, 
+            "iso3": "HUN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ICELAND", 
+            "printable_name": "Iceland", 
+            "region_choices": "", 
+            "numcode": 352, 
+            "iso3": "ISL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "INDIA", 
+            "printable_name": "India", 
+            "region_choices": "STATE_CHOICES", 
+            "numcode": 356, 
+            "iso3": "IND", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.in_.in_states"
+        }
+    }, 
+    {
+        "pk": "ID", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "INDONESIA", 
+            "printable_name": "Indonesia", 
+            "region_choices": "", 
+            "numcode": 360, 
+            "iso3": "IDN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "IRAN, ISLAMIC REPUBLIC OF", 
+            "printable_name": "Iran, Islamic Republic of", 
+            "region_choices": "", 
+            "numcode": 364, 
+            "iso3": "IRN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IQ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "IRAQ", 
+            "printable_name": "Iraq", 
+            "region_choices": "", 
+            "numcode": 368, 
+            "iso3": "IRQ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "IRELAND", 
+            "printable_name": "Ireland", 
+            "region_choices": "", 
+            "numcode": 372, 
+            "iso3": "IRL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ISLE OF MAN", 
+            "printable_name": "Isle of Man", 
+            "region_choices": "", 
+            "numcode": 833, 
+            "iso3": "IMN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ISRAEL", 
+            "printable_name": "Israel", 
+            "region_choices": "", 
+            "numcode": 376, 
+            "iso3": "ISR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "IT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ITALY", 
+            "printable_name": "Italy", 
+            "region_choices": "REGION_CHOICES", 
+            "numcode": 380, 
+            "iso3": "ITA", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.it.it_region"
+        }
+    }, 
+    {
+        "pk": "JM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "JAMAICA", 
+            "printable_name": "Jamaica", 
+            "region_choices": "", 
+            "numcode": 388, 
+            "iso3": "JAM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "JP", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "JAPAN", 
+            "printable_name": "Japan", 
+            "region_choices": "JP_PREFECTURES", 
+            "numcode": 392, 
+            "iso3": "JPN", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.jp.jp_prefectures"
+        }
+    }, 
+    {
+        "pk": "JE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "JERSEY", 
+            "printable_name": "Jersey", 
+            "region_choices": "", 
+            "numcode": 832, 
+            "iso3": "JEY", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "JO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "JORDAN", 
+            "printable_name": "Jordan", 
+            "region_choices": "", 
+            "numcode": 400, 
+            "iso3": "JOR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "KAZAKHSTAN", 
+            "printable_name": "Kazakhstan", 
+            "region_choices": "", 
+            "numcode": 398, 
+            "iso3": "KAZ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "KENYA", 
+            "printable_name": "Kenya", 
+            "region_choices": "", 
+            "numcode": 404, 
+            "iso3": "KEN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "KIRIBATI", 
+            "printable_name": "Kiribati", 
+            "region_choices": "", 
+            "numcode": 296, 
+            "iso3": "KIR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KP", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF", 
+            "printable_name": "Democratic People's Republic of Korea", 
+            "region_choices": "", 
+            "numcode": 408, 
+            "iso3": "PRK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "KOREA, REPUBLIC OF", 
+            "printable_name": "Republic of Korea", 
+            "region_choices": "", 
+            "numcode": 410, 
+            "iso3": "KOR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "KUWAIT", 
+            "printable_name": "Kuwait", 
+            "region_choices": "", 
+            "numcode": 414, 
+            "iso3": "KWT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "KYRGYZSTAN", 
+            "printable_name": "Kyrgyzstan", 
+            "region_choices": "", 
+            "numcode": 417, 
+            "iso3": "KGZ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LAO PEOPLE'S DEMOCRATIC REPUBLIC", 
+            "printable_name": "Lao People's Democratic Republic", 
+            "region_choices": "", 
+            "numcode": 418, 
+            "iso3": "LAO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LV", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LATVIA", 
+            "printable_name": "Latvia", 
+            "region_choices": "", 
+            "numcode": 428, 
+            "iso3": "LVA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LB", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LEBANON", 
+            "printable_name": "Lebanon", 
+            "region_choices": "", 
+            "numcode": 422, 
+            "iso3": "LBN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LESOTHO", 
+            "printable_name": "Lesotho", 
+            "region_choices": "", 
+            "numcode": 426, 
+            "iso3": "LSO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LIBERIA", 
+            "printable_name": "Liberia", 
+            "region_choices": "", 
+            "numcode": 430, 
+            "iso3": "LBR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LIBYAN ARAB JAMAHIRIYA", 
+            "printable_name": "Libyan Arab Jamahiriya", 
+            "region_choices": "", 
+            "numcode": 434, 
+            "iso3": "LBY", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LIECHTENSTEIN", 
+            "printable_name": "Liechtenstein", 
+            "region_choices": "", 
+            "numcode": 438, 
+            "iso3": "LIE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LITHUANIA", 
+            "printable_name": "Lithuania", 
+            "region_choices": "", 
+            "numcode": 440, 
+            "iso3": "LTU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "LUXEMBOURG", 
+            "printable_name": "Luxembourg", 
+            "region_choices": "", 
+            "numcode": 442, 
+            "iso3": "LUX", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MACAO", 
+            "printable_name": "Macao Special Administrative Region of China", 
+            "region_choices": "", 
+            "numcode": 446, 
+            "iso3": "MAC", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF", 
+            "printable_name": "The former Yugoslav Republic of Macedonia", 
+            "region_choices": "", 
+            "numcode": 807, 
+            "iso3": "MKD", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MADAGASCAR", 
+            "printable_name": "Madagascar", 
+            "region_choices": "", 
+            "numcode": 450, 
+            "iso3": "MDG", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MALAWI", 
+            "printable_name": "Malawi", 
+            "region_choices": "", 
+            "numcode": 454, 
+            "iso3": "MWI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MALAYSIA", 
+            "printable_name": "Malaysia", 
+            "region_choices": "", 
+            "numcode": 458, 
+            "iso3": "MYS", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MV", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MALDIVES", 
+            "printable_name": "Maldives", 
+            "region_choices": "", 
+            "numcode": 462, 
+            "iso3": "MDV", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ML", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MALI", 
+            "printable_name": "Mali", 
+            "region_choices": "", 
+            "numcode": 466, 
+            "iso3": "MLI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MALTA", 
+            "printable_name": "Malta", 
+            "region_choices": "", 
+            "numcode": 470, 
+            "iso3": "MLT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MARSHALL ISLANDS", 
+            "printable_name": "Marshall Islands", 
+            "region_choices": "", 
+            "numcode": 584, 
+            "iso3": "MHL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MQ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MARTINIQUE", 
+            "printable_name": "Martinique", 
+            "region_choices": "", 
+            "numcode": 474, 
+            "iso3": "MTQ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MAURITANIA", 
+            "printable_name": "Mauritania", 
+            "region_choices": "", 
+            "numcode": 478, 
+            "iso3": "MRT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MAURITIUS", 
+            "printable_name": "Mauritius", 
+            "region_choices": "", 
+            "numcode": 480, 
+            "iso3": "MUS", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "YT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MAYOTTE", 
+            "printable_name": "Mayotte", 
+            "region_choices": "", 
+            "numcode": 175, 
+            "iso3": "MYT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MX", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MEXICO", 
+            "printable_name": "Mexico", 
+            "region_choices": "STATE_CHOICES", 
+            "numcode": 484, 
+            "iso3": "MEX", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.mx.mx_states"
+        }
+    }, 
+    {
+        "pk": "FM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MICRONESIA, FEDERATED STATES OF", 
+            "printable_name": "Micronesia, Federated States of", 
+            "region_choices": "", 
+            "numcode": 583, 
+            "iso3": "FSM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MD", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MOLDOVA, REPUBLIC OF", 
+            "printable_name": "Republic of Moldova", 
+            "region_choices": "", 
+            "numcode": 498, 
+            "iso3": "MDA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MONACO", 
+            "printable_name": "Monaco", 
+            "region_choices": "", 
+            "numcode": 492, 
+            "iso3": "MCO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MONGOLIA", 
+            "printable_name": "Mongolia", 
+            "region_choices": "", 
+            "numcode": 496, 
+            "iso3": "MNG", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ME", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MONTENEGRO", 
+            "printable_name": "Montenegro", 
+            "region_choices": "", 
+            "numcode": 499, 
+            "iso3": "MNE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MONTSERRAT", 
+            "printable_name": "Montserrat", 
+            "region_choices": "", 
+            "numcode": 500, 
+            "iso3": "MSR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MOROCCO", 
+            "printable_name": "Morocco", 
+            "region_choices": "", 
+            "numcode": 504, 
+            "iso3": "MAR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MOZAMBIQUE", 
+            "printable_name": "Mozambique", 
+            "region_choices": "", 
+            "numcode": 508, 
+            "iso3": "MOZ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "MYANMAR", 
+            "printable_name": "Myanmar", 
+            "region_choices": "", 
+            "numcode": 104, 
+            "iso3": "MMR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NAMIBIA", 
+            "printable_name": "Namibia", 
+            "region_choices": "", 
+            "numcode": 516, 
+            "iso3": "NAM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NAURU", 
+            "printable_name": "Nauru", 
+            "region_choices": "", 
+            "numcode": 520, 
+            "iso3": "NRU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NP", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NEPAL", 
+            "printable_name": "Nepal", 
+            "region_choices": "", 
+            "numcode": 524, 
+            "iso3": "NPL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NETHERLANDS", 
+            "printable_name": "Netherlands", 
+            "region_choices": "PROVINCE_CHOICES", 
+            "numcode": 528, 
+            "iso3": "NLD", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.nl.nl_provinces"
+        }
+    }, 
+    {
+        "pk": "AN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NETHERLANDS ANTILLES", 
+            "printable_name": "Netherlands Antilles", 
+            "region_choices": "", 
+            "numcode": 530, 
+            "iso3": "ANT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NEW CALEDONIA", 
+            "printable_name": "New Caledonia", 
+            "region_choices": "", 
+            "numcode": 540, 
+            "iso3": "NCL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NEW ZEALAND", 
+            "printable_name": "New Zealand", 
+            "region_choices": "", 
+            "numcode": 554, 
+            "iso3": "NZL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NICARAGUA", 
+            "printable_name": "Nicaragua", 
+            "region_choices": "", 
+            "numcode": 558, 
+            "iso3": "NIC", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NIGER", 
+            "printable_name": "Niger", 
+            "region_choices": "", 
+            "numcode": 562, 
+            "iso3": "NER", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NIGERIA", 
+            "printable_name": "Nigeria", 
+            "region_choices": "", 
+            "numcode": 566, 
+            "iso3": "NGA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NIUE", 
+            "printable_name": "Niue", 
+            "region_choices": "", 
+            "numcode": 570, 
+            "iso3": "NIU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NORFOLK ISLAND", 
+            "printable_name": "Norfolk Island", 
+            "region_choices": "", 
+            "numcode": 574, 
+            "iso3": "NFK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "MP", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NORTHERN MARIANA ISLANDS", 
+            "printable_name": "Northern Mariana Islands", 
+            "region_choices": "", 
+            "numcode": 580, 
+            "iso3": "MNP", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "NO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "NORWAY", 
+            "printable_name": "Norway", 
+            "region_choices": "MUNICIPALITY_CHOICES", 
+            "numcode": 578, 
+            "iso3": "NOR", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.no.no_municipalities"
+        }
+    }, 
+    {
+        "pk": "OM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "OMAN", 
+            "printable_name": "Oman", 
+            "region_choices": "", 
+            "numcode": 512, 
+            "iso3": "OMN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PAKISTAN", 
+            "printable_name": "Pakistan", 
+            "region_choices": "", 
+            "numcode": 586, 
+            "iso3": "PAK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PALAU", 
+            "printable_name": "Palau", 
+            "region_choices": "", 
+            "numcode": 585, 
+            "iso3": "PLW", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PALESTINIAN TERRITORY, OCCUPIED", 
+            "printable_name": "Occupied Palestinian Territory", 
+            "region_choices": "", 
+            "numcode": 275, 
+            "iso3": "PSE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PANAMA", 
+            "printable_name": "Panama", 
+            "region_choices": "", 
+            "numcode": 591, 
+            "iso3": "PAN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PAPUA NEW GUINEA", 
+            "printable_name": "Papua New Guinea", 
+            "region_choices": "", 
+            "numcode": 598, 
+            "iso3": "PNG", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PARAGUAY", 
+            "printable_name": "Paraguay", 
+            "region_choices": "", 
+            "numcode": 600, 
+            "iso3": "PRY", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PERU", 
+            "printable_name": "Peru", 
+            "region_choices": "DEPARTMENT_CHOICES", 
+            "numcode": 604, 
+            "iso3": "PER", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.pe.pe_department"
+        }
+    }, 
+    {
+        "pk": "PH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PHILIPPINES", 
+            "printable_name": "Philippines", 
+            "region_choices": "", 
+            "numcode": 608, 
+            "iso3": "PHL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PITCAIRN", 
+            "printable_name": "Pitcairn", 
+            "region_choices": "", 
+            "numcode": 612, 
+            "iso3": "PCN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "POLAND", 
+            "printable_name": "Poland", 
+            "region_choices": "VOIVODESHIP_CHOICES", 
+            "numcode": 616, 
+            "iso3": "POL", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.pl.pl_voivodeships"
+        }
+    }, 
+    {
+        "pk": "PT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PORTUGAL", 
+            "printable_name": "Portugal", 
+            "region_choices": "", 
+            "numcode": 620, 
+            "iso3": "PRT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "PUERTO RICO", 
+            "printable_name": "Puerto Rico", 
+            "region_choices": "", 
+            "numcode": 630, 
+            "iso3": "PRI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "QA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "QATAR", 
+            "printable_name": "Qatar", 
+            "region_choices": "", 
+            "numcode": 634, 
+            "iso3": "QAT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "RE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "REUNION", 
+            "printable_name": "R\u00e9union", 
+            "region_choices": "", 
+            "numcode": 638, 
+            "iso3": "REU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "RO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ROMANIA", 
+            "printable_name": "Romania", 
+            "region_choices": "", 
+            "numcode": 642, 
+            "iso3": "ROU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "RU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "RUSSIAN FEDERATION", 
+            "printable_name": "Russian Federation", 
+            "region_choices": "", 
+            "numcode": 643, 
+            "iso3": "RUS", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "RW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "RWANDA", 
+            "printable_name": "Rwanda", 
+            "region_choices": "", 
+            "numcode": 646, 
+            "iso3": "RWA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAINT HELENA", 
+            "printable_name": "Saint Helena", 
+            "region_choices": "", 
+            "numcode": 654, 
+            "iso3": "SHN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "KN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAINT KITTS AND NEVIS", 
+            "printable_name": "Saint Kitts and Nevis", 
+            "region_choices": "", 
+            "numcode": 659, 
+            "iso3": "KNA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "LC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAINT LUCIA", 
+            "printable_name": "Saint Lucia", 
+            "region_choices": "", 
+            "numcode": 662, 
+            "iso3": "LCA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "PM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAINT PIERRE AND MIQUELON", 
+            "printable_name": "Saint Pierre and Miquelon", 
+            "region_choices": "", 
+            "numcode": 666, 
+            "iso3": "SPM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "VC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAINT VINCENT AND THE GRENADINES", 
+            "printable_name": "Saint Vincent and the Grenadines", 
+            "region_choices": "", 
+            "numcode": 670, 
+            "iso3": "VCT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "WS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAMOA", 
+            "printable_name": "Samoa", 
+            "region_choices": "", 
+            "numcode": 882, 
+            "iso3": "WSM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAN MARINO", 
+            "printable_name": "San Marino", 
+            "region_choices": "", 
+            "numcode": 674, 
+            "iso3": "SMR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ST", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAO TOME AND PRINCIPE", 
+            "printable_name": "Sao Tome and Principe", 
+            "region_choices": "", 
+            "numcode": 678, 
+            "iso3": "STP", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SAUDI ARABIA", 
+            "printable_name": "Saudi Arabia", 
+            "region_choices": "", 
+            "numcode": 682, 
+            "iso3": "SAU", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SENEGAL", 
+            "printable_name": "Senegal", 
+            "region_choices": "", 
+            "numcode": 686, 
+            "iso3": "SEN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "RS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SERBIA", 
+            "printable_name": "Serbia", 
+            "region_choices": "", 
+            "numcode": 688, 
+            "iso3": "SRB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SEYCHELLES", 
+            "printable_name": "Seychelles", 
+            "region_choices": "", 
+            "numcode": 690, 
+            "iso3": "SYC", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SIERRA LEONE", 
+            "printable_name": "Sierra Leone", 
+            "region_choices": "", 
+            "numcode": 694, 
+            "iso3": "SLE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SINGAPORE", 
+            "printable_name": "Singapore", 
+            "region_choices": "", 
+            "numcode": 702, 
+            "iso3": "SGP", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SLOVAKIA", 
+            "printable_name": "Slovakia", 
+            "region_choices": "REGION_CHOICES", 
+            "numcode": 703, 
+            "iso3": "SVK", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.sk.sk_regions"
+        }
+    }, 
+    {
+        "pk": "SI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SLOVENIA", 
+            "printable_name": "Slovenia", 
+            "region_choices": "", 
+            "numcode": 705, 
+            "iso3": "SVN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SB", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SOLOMON ISLANDS", 
+            "printable_name": "Solomon Islands", 
+            "region_choices": "", 
+            "numcode": 90, 
+            "iso3": "SLB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SOMALIA", 
+            "printable_name": "Somalia", 
+            "region_choices": "", 
+            "numcode": 706, 
+            "iso3": "SOM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ZA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SOUTH AFRICA", 
+            "printable_name": "South Africa", 
+            "region_choices": "PROVINCE_CHOICES", 
+            "numcode": 710, 
+            "iso3": "ZAF", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.za.za_provinces"
+        }
+    }, 
+    {
+        "pk": "GS", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS", 
+            "printable_name": "South Georgia and the South Sandwich Islands", 
+            "region_choices": "", 
+            "numcode": 239, 
+            "iso3": "SGS", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ES", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SPAIN", 
+            "printable_name": "Spain", 
+            "region_choices": "REGION_CHOICES", 
+            "numcode": 724, 
+            "iso3": "ESP", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.es.es_regions"
+        }
+    }, 
+    {
+        "pk": "LK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SRI LANKA", 
+            "printable_name": "Sri Lanka", 
+            "region_choices": "", 
+            "numcode": 144, 
+            "iso3": "LKA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SD", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SUDAN", 
+            "printable_name": "Sudan", 
+            "region_choices": "", 
+            "numcode": 736, 
+            "iso3": "SDN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SURINAME", 
+            "printable_name": "Suriname", 
+            "region_choices": "", 
+            "numcode": 740, 
+            "iso3": "SUR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SJ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SVALBARD AND JAN MAYEN", 
+            "printable_name": "Svalbard and Jan Mayen Islands", 
+            "region_choices": "", 
+            "numcode": 744, 
+            "iso3": "SJM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SWAZILAND", 
+            "printable_name": "Swaziland", 
+            "region_choices": "", 
+            "numcode": 748, 
+            "iso3": "SWZ", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "SE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SWEDEN", 
+            "printable_name": "Sweden", 
+            "region_choices": "", 
+            "numcode": 752, 
+            "iso3": "SWE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "CH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SWITZERLAND", 
+            "printable_name": "Switzerland", 
+            "region_choices": "STATE_CHOICES", 
+            "numcode": 756, 
+            "iso3": "CHE", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.ch.ch_states"
+        }
+    }, 
+    {
+        "pk": "SY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "SYRIAN ARAB REPUBLIC", 
+            "printable_name": "Syrian Arab Republic", 
+            "region_choices": "", 
+            "numcode": 760, 
+            "iso3": "SYR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TAIWAN, PROVINCE OF CHINA", 
+            "printable_name": "Taiwan, Province of China", 
+            "region_choices": "", 
+            "numcode": 158, 
+            "iso3": "TWN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TJ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TAJIKISTAN", 
+            "printable_name": "Tajikistan", 
+            "region_choices": "", 
+            "numcode": 762, 
+            "iso3": "TJK", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TANZANIA, UNITED REPUBLIC OF", 
+            "printable_name": "United Republic of Tanzania", 
+            "region_choices": "", 
+            "numcode": 834, 
+            "iso3": "TZA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "THAILAND", 
+            "printable_name": "Thailand", 
+            "region_choices": "", 
+            "numcode": 764, 
+            "iso3": "THA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TL", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TIMOR-LESTE", 
+            "printable_name": "Timor-Leste", 
+            "region_choices": "", 
+            "numcode": 626, 
+            "iso3": "TLS", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TOGO", 
+            "printable_name": "Togo", 
+            "region_choices": "", 
+            "numcode": 768, 
+            "iso3": "TGO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TK", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TOKELAU", 
+            "printable_name": "Tokelau", 
+            "region_choices": "", 
+            "numcode": 772, 
+            "iso3": "TKL", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TO", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TONGA", 
+            "printable_name": "Tonga", 
+            "region_choices": "", 
+            "numcode": 776, 
+            "iso3": "TON", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TT", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TRINIDAD AND TOBAGO", 
+            "printable_name": "Trinidad and Tobago", 
+            "region_choices": "", 
+            "numcode": 780, 
+            "iso3": "TTO", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TUNISIA", 
+            "printable_name": "Tunisia", 
+            "region_choices": "", 
+            "numcode": 788, 
+            "iso3": "TUN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TR", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TURKEY", 
+            "printable_name": "Turkey", 
+            "region_choices": "", 
+            "numcode": 792, 
+            "iso3": "TUR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TURKMENISTAN", 
+            "printable_name": "Turkmenistan", 
+            "region_choices": "", 
+            "numcode": 795, 
+            "iso3": "TKM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TC", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TURKS AND CAICOS ISLANDS", 
+            "printable_name": "Turks and Caicos Islands", 
+            "region_choices": "", 
+            "numcode": 796, 
+            "iso3": "TCA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "TV", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "TUVALU", 
+            "printable_name": "Tuvalu", 
+            "region_choices": "", 
+            "numcode": 798, 
+            "iso3": "TUV", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "UG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "UGANDA", 
+            "printable_name": "Uganda", 
+            "region_choices": "", 
+            "numcode": 800, 
+            "iso3": "UGA", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "UA", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "UKRAINE", 
+            "printable_name": "Ukraine", 
+            "region_choices": "", 
+            "numcode": 804, 
+            "iso3": "UKR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "AE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "UNITED ARAB EMIRATES", 
+            "printable_name": "United Arab Emirates", 
+            "region_choices": "", 
+            "numcode": 784, 
+            "iso3": "ARE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "GB", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "UNITED KINGDOM", 
+            "printable_name": "United Kingdom of Great Britain and Northern Ireland", 
+            "region_choices": "UK_REGION_CHOICES", 
+            "numcode": 826, 
+            "iso3": "GBR", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.uk.uk_regions"
+        }
+    }, 
+    {
+        "pk": "US", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "UNITED STATES", 
+            "printable_name": "United States of America", 
+            "region_choices": "STATE_CHOICES", 
+            "numcode": 840, 
+            "iso3": "USA", 
+            "active": 1, 
+            "region_module": "django.contrib.localflavor.us.us_states"
+        }
+    }, 
+    {
+        "pk": "UM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "UNITED STATES MINOR OUTLYING ISLANDS", 
+            "printable_name": "United States Minor Outlying Islands", 
+            "region_choices": "", 
+            "numcode": 581, 
+            "iso3": "UMI", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "UY", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "URUGUAY", 
+            "printable_name": "Uruguay", 
+            "region_choices": "", 
+            "numcode": 858, 
+            "iso3": "URY", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "UZ", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "UZBEKISTAN", 
+            "printable_name": "Uzbekistan", 
+            "region_choices": "", 
+            "numcode": 860, 
+            "iso3": "UZB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "VU", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "VANUATU", 
+            "printable_name": "Vanuatu", 
+            "region_choices": "", 
+            "numcode": 548, 
+            "iso3": "VUT", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "VE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "VENEZUELA", 
+            "printable_name": "Venezuela (Bolivarian Republic of)", 
+            "region_choices": "", 
+            "numcode": 862, 
+            "iso3": "VEN", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "VN", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "VIET NAM", 
+            "printable_name": "Viet Nam", 
+            "region_choices": "", 
+            "numcode": 704, 
+            "iso3": "VNM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "VG", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "VIRGIN ISLANDS, BRITISH", 
+            "printable_name": "British Virgin Islands", 
+            "region_choices": "", 
+            "numcode": 92, 
+            "iso3": "VGB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "VI", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "VIRGIN ISLANDS, U.S.", 
+            "printable_name": "United States Virgin Islands", 
+            "region_choices": "", 
+            "numcode": 850, 
+            "iso3": "VIR", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "WF", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "WALLIS AND FUTUNA", 
+            "printable_name": "Wallis and Futuna Islands", 
+            "region_choices": "", 
+            "numcode": 876, 
+            "iso3": "WLF", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "EH", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "WESTERN SAHARA", 
+            "printable_name": "Western Sahara", 
+            "region_choices": "", 
+            "numcode": 732, 
+            "iso3": "ESH", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "YE", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "YEMEN", 
+            "printable_name": "Yemen", 
+            "region_choices": "", 
+            "numcode": 887, 
+            "iso3": "YEM", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ZM", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ZAMBIA", 
+            "printable_name": "Zambia", 
+            "region_choices": "", 
+            "numcode": 894, 
+            "iso3": "ZMB", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }, 
+    {
+        "pk": "ZW", 
+        "model": "countries.country", 
+        "fields": {
+            "name": "ZIMBABWE", 
+            "printable_name": "Zimbabwe", 
+            "region_choices": "", 
+            "numcode": 716, 
+            "iso3": "ZWE", 
+            "active": 0, 
+            "region_module": ""
+        }
+    }
+]

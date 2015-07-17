@@ -101,37 +101,4 @@ class User extends BaseUser
     {
         return $this->lastName;
     }
-
-    /**
-     * Add addresses
-     *
-     * @param \SKCMS\UserBundle\Entity\Address $addresses
-     * @return User
-     */
-    public function addAddress(\SKCMS\UserBundle\Entity\Address $addresses)
-    {
-        $this->addresses[] = $addresses;
-
-        return $this;
-    }
-
-    /**
-     * Remove addresses
-     *
-     * @param \SKCMS\UserBundle\Entity\Address $addresses
-     */
-    public function removeAddress(\SKCMS\UserBundle\Entity\Address $addresses)
-    {
-        $this->addresses->removeElement($addresses);
-    }
-
-    /**
-     * Get addresses
-     *
-     * @return \Doctrine\Common\Collections\Collection 
-     */
-    public function getAddresses()
-    {
-        return $this->addresses;
-    }
 }
