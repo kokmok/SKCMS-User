@@ -36,9 +36,27 @@ class User extends BaseUser
     private $lastName;
     
     /**
-     * @ORM\OneToMany(targetEntity="SKCMS\UserBundle\Entity\Address", mappedBy="User")
+     *
+     * @var string
+     * @ORM\Column(name="phone",type="string", length =255,nullable=true)
+     */
+    private $phone;
+    /**
+     *
+     * @var string
+     * @ORM\Column(name="fax",type="string", length =255,nullable=true)
+     */
+    private $fax;
+    
+    /**
+     * @ORM\OneToMany(targetEntity="SKCMS\UserBundle\Entity\Address", mappedBy="user",cascade="all")
      */
     private $addresses;
+    
+    /**
+     * @ORM\OneToMany(targetEntity="SKCMS\TrackingBundle\Entity\Session", mappedBy="user")
+     */
+    private $sessions;
     
     
     public function __construct() {
@@ -108,10 +126,10 @@ class User extends BaseUser
      * @param \SKCMS\UserBundle\Entity\Address $addresses
      * @return User
      */
-    public function addAddress(\SKCMS\UserBundle\Entity\Address $addresses)
+    public function addAddress(\SKCMS\UserBundle\Entity\Address $address)
     {
-        $this->addresses[] = $addresses;
-
+        $this->addresses->add($address);
+        $address->setUser($this);
         return $this;
     }
 
@@ -133,5 +151,84 @@ class User extends BaseUser
     public function getAddresses()
     {
         return $this->addresses;
+    }
+
+    /**
+     * Set phone
+     *
+     * @param string $phone
+     * @return User
+     */
+    public function setPhone($phone)
+    {
+        $this->phone = $phone;
+
+        return $this;
+    }
+
+    /**
+     * Get phone
+     *
+     * @return string 
+     */
+    public function getPhone()
+    {
+        return $this->phone;
+    }
+
+    /**
+     * Set fax
+     *
+     * @param string $fax
+     * @return User
+     */
+    public function setFax($fax)
+    {
+        $this->fax = $fax;
+
+        return $this;
+    }
+
+    /**
+     * Get fax
+     *
+     * @return string 
+     */
+    public function getFax()
+    {
+        return $this->fax;
+    }
+
+    /**
+     * Add sessions
+     *
+     * @param \SKCMS\TrackingBundle\Entity\Session $sessions
+     * @return User
+     */
+    public function addSession(\SKCMS\TrackingBundle\Entity\Session $sessions)
+    {
+        $this->sessions[] = $sessions;
+
+        return $this;
+    }
+
+    /**
+     * Remove sessions
+     *
+     * @param \SKCMS\TrackingBundle\Entity\Session $sessions
+     */
+    public function removeSession(\SKCMS\TrackingBundle\Entity\Session $sessions)
+    {
+        $this->sessions->removeElement($sessions);
+    }
+
+    /**
+     * Get sessions
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getSessions()
+    {
+        return $this->sessions;
     }
 }

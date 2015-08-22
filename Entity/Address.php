@@ -52,14 +52,14 @@ class Address
     /**
      * @var string
      *
-     * @ORM\Column(name="box", type="string", length=255)
+     * @ORM\Column(name="box", type="string", length=255,nullable=true)
      */
     private $box;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="name", type="string", length=255)
+     * @ORM\Column(name="name", type="string", length=255,nullable=true)
      */
     private $name;
     
@@ -85,6 +85,12 @@ class Address
     public function getId()
     {
         return $this->id;
+    }
+    
+    public function resetId()
+    {
+        $this->id = null;
+        return $this;
     }
 
     /**

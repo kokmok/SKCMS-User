@@ -17,7 +17,7 @@ class ImportCountriesCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('skcms:countries:add')
+            ->setName('skcms:import:countries')
             ->setDescription('Import countries from json file')
         ;
     }
