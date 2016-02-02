@@ -36,9 +36,27 @@ class User extends BaseUser
     private $lastName;
     
     /**
-     * @ORM\OneToMany(targetEntity="SKCMS\UserBundle\Entity\Address", mappedBy="User")
+     *
+     * @var string
+     * @ORM\Column(name="phone",type="string", length =255,nullable=true)
+     */
+    private $phone;
+    /**
+     *
+     * @var string
+     * @ORM\Column(name="fax",type="string", length =255,nullable=true)
+     */
+    private $fax;
+    
+    /**
+     * @ORM\OneToMany(targetEntity="SKCMS\UserBundle\Entity\Address", mappedBy="user")
      */
     private $addresses;
+    
+    /**
+     * @ORM\OneToMany(targetEntity="SKCMS\TrackingBundle\Entity\Session", mappedBy="user")
+     */
+    private $sessions;
     
     
     public function __construct() {
@@ -100,5 +118,38 @@ class User extends BaseUser
     public function getLastName()
     {
         return $this->lastName;
+    }
+
+    /**
+     * Add addresses
+     *
+     * @param \SKCMS\UserBundle\Entity\Address $addresses
+     * @return User
+     */
+    public function addAddress(\SKCMS\UserBundle\Entity\Address $addresses)
+    {
+        $this->addresses[] = $addresses;
+
+        return $this;
+    }
+
+    /**
+     * Remove addresses
+     *
+     * @param \SKCMS\UserBundle\Entity\Address $addresses
+     */
+    public function removeAddress(\SKCMS\UserBundle\Entity\Address $addresses)
+    {
+        $this->addresses->removeElement($addresses);
+    }
+
+    /**
+     * Get addresses
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getAddresses()
+    {
+        return $this->addresses;
     }
 }
